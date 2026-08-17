@@ -9,28 +9,28 @@
 class Crucible < Formula
   desc "Agent testing and validation framework"
   homepage "https://github.com/agentstatelabs/AgentStateCrucible"
-  version "0.2.2"
+  version "0.2.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentstatelabs/AgentStateCrucible-releases/releases/download/v0.2.2/crucible-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "9d63763d03b1739bff80d35ae0cd1a7e5f486a97e37120ea21b12b83da952991"
+      url "https://github.com/agentstatelabs/AgentStateCrucible-releases/releases/download/v0.2.6/crucible-v0.2.6-aarch64-apple-darwin.tar.gz"
+      sha256 "30ab9de829d6b5f148da0bc1fc0ae1b583a9429301ca974eeaf6347a792f2e92"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/AgentStateCrucible-releases/releases/download/v0.2.2/crucible-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "61541203cbfca46251ca3e1db4f0468f07f8a99de01860eacd14b23a2d212ba1"
+      url "https://github.com/agentstatelabs/AgentStateCrucible-releases/releases/download/v0.2.6/crucible-v0.2.6-x86_64-apple-darwin.tar.gz"
+      sha256 "72d9e569e4dba0da5f2a8feb531efa7aa0cd479e6a705b84b8efa537fb0b2ba2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agentstatelabs/AgentStateCrucible-releases/releases/download/v0.2.2/crucible-v0.2.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d733693acbbb6e4874c275cdfbbb7b96d60c72fce37aefb69b2cb85dea3a935f"
+      url "https://github.com/agentstatelabs/AgentStateCrucible-releases/releases/download/v0.2.6/crucible-v0.2.6-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "24e47114fb25c2f418f97846147b8b6f0ed99b0f20eadf9718923a18048cf016"
     end
     on_intel do
-      url "https://github.com/agentstatelabs/AgentStateCrucible-releases/releases/download/v0.2.2/crucible-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "76efbf6f422e9b55b0aacf545de9b926e4d6630467cc95b584de1035baa5fb01"
+      url "https://github.com/agentstatelabs/AgentStateCrucible-releases/releases/download/v0.2.6/crucible-v0.2.6-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "acf09370fb325a5e4ab6c84090f7f457e5d7a346060001a0f8097410f7664001"
     end
   end
 
