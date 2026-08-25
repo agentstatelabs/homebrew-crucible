@@ -8,9 +8,9 @@
 
 class Crucible < Formula
   desc "Agent testing and validation framework"
-  homepage "https://github.com/agentstatelabs/AgentStateCrucible"
+  homepage "https://agentstatecrucible.dev"
   version "0.2.6"
-  license "Apache-2.0"
+  license "BUSL-1.1"
 
   on_macos do
     on_arm do
