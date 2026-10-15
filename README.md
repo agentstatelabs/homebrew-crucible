@@ -24,3 +24,10 @@ from the source repos.
 The GitLab project is named `homebrew-agentstatecrucible` while this mirror is
 `homebrew-crucible`; the names differ because `brew tap` derives the repo name
 from the tap name, and the tap is `agentstatelabs/crucible`.
+
+`version-guard` runs before `publish-github` and fails, so nothing is
+mirrored, when a push would lower the formula's version, e.g. when an old
+release tag's pipeline is re-run. To roll back on purpose, end the commit
+message with the trailer `Allow-Downgrade: <version>`, or run a pipeline on
+`main` with the variable `TAP_ALLOW_DOWNGRADE=<version>`. See
+`scripts/version-guard.py`.
